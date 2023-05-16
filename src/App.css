@@ -19,7 +19,6 @@ body {
 
 }
 
-
 .App {
   height: 100%;
   display: flex;
@@ -42,8 +41,6 @@ button {
   font-size: 18px;
   margin-bottom: 30px;
   cursor: pointer;
-
-
 }
 
 

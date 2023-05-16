@@ -1,7 +1,6 @@
 import React from 'react';
 import './Circle.css'
 
-
 interface PropsCircle {
     number:number
 }

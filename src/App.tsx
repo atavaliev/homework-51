@@ -3,11 +3,9 @@ import './App.css';
 import Circle from "./Circle/Circle";
 
 const App = () => {
-
     const [numbers, setNumbers] = useState<number[]>([0, 0, 0, 0, 0]);
 
     const generateNumbers = () => {
-
         //Create collection of values:number
         const randomNumbers: Set<number> = new Set();
 
@@ -39,8 +37,6 @@ const App = () => {
                     })
                 }
             </div>
-
-
         </div>
     );
 };
