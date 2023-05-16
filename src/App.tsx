@@ -28,6 +28,10 @@ const App = () => {
 
     return (
         <div className="App">
+            <h1>Magic Numbers</h1>
+
+            <button onClick={() => generateNumbers()}>New numbers</button>
+
             <div className="circle-list">
                 {
                     sortedArray.map(n => {
@@ -36,7 +40,7 @@ const App = () => {
                 }
             </div>
 
-            <button onClick={() => generateNumbers()}>New numbers</button>
+
         </div>
     );
 };
